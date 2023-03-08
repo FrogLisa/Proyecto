@@ -1,0 +1,235 @@
+  @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+ 
+
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    padding: 50px 50px;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*HEADER*/
+
+header{
+
+    width: 100%;
+    height: 600px ;
+    background: #870000;
+    background: -webkit-linear-gradient(to bottom, hsla(14, 68%, 6%, 0.705), hsla(0, 100%, 26%, 0.705)), url(../ilustracion/portada.jpg);
+    background: linear-gradient(to bottom, hsla(14, 68%, 6%, 0.705), hsla(0, 100%, 26%, 0.705)), url(../ilustracion/portada.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center; 
+}
+
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.slide{
+    padding: 70px 95px;
+    margin-top: 15px;
+}
+.slide img{
+    height: 90vh ;
+}
+
+.titulo{
+    font-family: 'Gentium Book Plus', serif;
+    color: white;
+    padding: 150px ;
+    text-align: center;
+    font-size: 90px; 
+}
+
+h3{
+    padding: 100px 50px 60px 50px ;
+}
+
+/*COLUMNAS DE SECCIONES*/
+
+
+.colum2{
+    column-count: 3;
+    column-gap:40px ;
+}
+
+.colum3{
+    column-count: 3;
+}
+
+.boximg{
+    width: 200px;
+    padding: 50px 50px;
+} 
+
+.img3{
+    padding: 50px;
+}
+/*SECTION 1*/
+
+
+.top{
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 60px;
+    padding: 200px;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+.numero-10{
+    width: 100%;
+    height: 600px;
+    background: #70e1f5;  
+    background: -webkit-linear-gradient(to right, hsla(34, 100%, 79%, 0.712), hsla(189, 87%, 70%, 0.705)), url(../ilustracion/hearstopper/h1.jpg);  
+    background: linear-gradient(to right, hsla(34, 100%, 79%, 0.445), hsla(189, 87%, 70%, 0.397)), url(../ilustracion/hearstopper/h1.jpg); 
+
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center; 
+}
+.wave2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* SECTION 2*/
+.numero-9{
+    width: 100%;
+    height: 600px;
+    background: #757F9A; 
+    background: -webkit-linear-gradient(to left, hsla(219, 27%, 88%, 0.692), hsla(224, 15%, 53%, 0.699)), url(../ilustracion/propuesta/p1.jpg); 
+    background: linear-gradient(to left, hsla(219, 27%, 88%, 0.692), hsla(224, 15%, 53%, 0.699)), url(../ilustracion/propuesta/p1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center; 
+}
+
+/* SECTION 3*/
+.numero-8{
+    width: 100%;
+    height: 600px;
+    background: #093028;  
+    background: -webkit-linear-gradient(to top, hsla(156, 55%, 31%, 0.692), hsla(168, 68%, 11%, 0.685)), url(../ilustracion/alice/a1.jpg);  
+    background: linear-gradient(to top, hsla(156, 55%, 31%, 0.692), hsla(168, 68%, 11%, 0.685)), url(../ilustracion/alice/a1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center; 
+}
+
+/*SECTION 4*/
+.numero-7{
+    width: 100%;
+    height: 600px;
+    background: #1e130c;
+    background: -webkit-linear-gradient(to top, hsla(21, 14%, 54%, 0.699), hsla(23, 43%, 8%, 0.685)), url(../ilustracion/teenwolf/t4.jpg);
+    background: linear-gradient(to top, hsla(21, 14%, 54%, 0.699), hsla(23, 43%, 8%, 0.685)), url(../ilustracion/teenwolf/t4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center; 
+}
+
+/*SECTION 5*/
+.numero-6{
+    width: 100%;
+    height: 600px;
+    background: #F3904F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, hsla(231, 31%, 34%, 0.678), hsla(24, 87%, 63%, 0.692)), url(../ilustracion/anne/an1.jpg);; 
+    background: linear-gradient(to left, hsla(231, 31%, 34%, 0.678), hsla(24, 87%, 63%, 0.692)), url(../ilustracion/anne/an1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center; 
+}
+
+/*SECTION 6*/
+
+.numero-5{
+    width: 100%;
+    height: 600px;
+    background: #eacda3; 
+    background: -webkit-linear-gradient(to left, hsla(34, 53%, 66%, 0.699), hsla(35, 63%, 78%, 0.685)), url(../ilustracion/woo/w1.jpg);
+    background: linear-gradient(to left, hsla(34, 53%, 66%, 0.699), hsla(35, 63%, 78%, 0.685)), url(../ilustracion/woo/w1.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center; 
+}
+
+
+/*SECTION 7*/
+.numero-4{
+    width: 100%;
+    height: 600px;
+    background: #373B44; 
+    background: -webkit-linear-gradient(to right, hsla(217, 89%, 61%, 0.623), hsla(222, 11%, 24%, 0.685)), url(../ilustracion/mdzs/m1.jpg); 
+    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.623), hsla(222, 11%, 24%, 0.685)), url(../ilustracion/mdzs/m1.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+}
+
+
+/*SECTION 8*/
+.numero-3{
+    width: 100%;
+    height: 600px;
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, hsla(207, 87%, 67%, 0.671), hsla(89, 58%, 75%, 0.692)), url(../ilustracion/aterrizaje/c1.jpg);
+    background: linear-gradient(to bottom, hsla(207, 87%, 67%, 0.671), hsla(89, 58%, 75%, 0.692)), url(../ilustracion/aterrizaje/c1.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center; 
+}
+
+
+/*SECTION 9*/
+
+.numero-2{
+    width: 100%;
+    height: 600px;
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, hsla(234, 59%, 28%, 0.685), hsla(341, 56%, 49%, 0.692)), url(../ilustracion/tomorrow/to1.jpg);
+    background: linear-gradient(to top, hsla(234, 59%, 28%, 0.685), hsla(341, 56%, 49%, 0.692)), url(../ilustracion/tomorrow/to1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center; 
+}
+
+
+/*SECTION 10*/
+.numero-1{
+    width: 100%;
+    height: 600px;
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, hsla(215, 60%, 88%, 0.671), hsla(219, 82%, 93%, 0.671)), url(../ilustracion/startup/s1.jpg);
+    background: linear-gradient(to top, hsla(215, 60%, 88%, 0.671), hsla(219, 82%, 93%, 0.671)), url(../ilustracion/startup/s1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center; 
+}
+
